@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería Dos Manos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 2s;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: url('WhatsApp Image 2024-12-11 at 7.33.46 PM.jpeg') no-repeat center center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            color: black;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: black;
+        }
+        section {
+            padding: 2rem 1rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ferretería Dos Manos</h1>
+        <p>Todo lo que necesitas para construir y reparar</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Productos.html">Productos</a>
+        <a href="Login.html">Login</a>
+        <a href="Registro.html">Registro</a>
+        <a href="Contacto.html">Contacto</a>
+
+
+    </nav>
+    <div class="hero">
+        <h1>Bienvenido a Ferretería Dos Manos</h1>
+        <p>Encuentra herramientas de calidad al mejor precio</p>
+    </div>
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="products">
+            <div class="product">
+                <img src="taladro.jpeg" alt="Taladro">
+                <h3>Taladro de Alta Potencia</h3>
+                <p>$50.00</p>
+            </div>
+            <div class="product">
+                <img src="martillo.jpeg" alt="Llave Inglesa">
+                <h3>Llave Inglesa Ajustable</h3>
+                <p>$15.00</p>
+            </div>
+            <div class="product">
+                <img src="Destornilladores.jpeg" alt="Juego de Destornilladores">
+                <h3>Juego de Destornilladores</h3>
+                <p>$25.00</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Ferretería Dos Manos&copy; 2024 | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
